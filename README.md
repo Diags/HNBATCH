@@ -3,7 +3,7 @@ ce-ci est un récaputilatif sur un retour d'expériences sur des traitements de 
 L'objectif est de comprendre comment utiliser les stacks techniques pour résoudre un probleme de performatence et de gestion des erreurs dans le traitement de lot en masses.
 # Presentation
 # Image 
-![image](https:https://github.com/Diags/HNBATCH/blob/2cccb8de33f8a50719573299902080fd3fc05e2a/src/main/resources/Capture.PNG)
+![image](https://github.com/Diags/HNBATCH/blob/39d36c675693f8927a7a67dfd7f1c11369c2d0d2/src/main/resources/Capture.PNG)
 
 * 
  Dans cette architecture, nous utilisons Spring Batch pour partitionner les données en plusieurs lots pour un traitement plus efficace. 
