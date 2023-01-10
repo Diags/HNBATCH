@@ -29,6 +29,6 @@ Une fois les containers sont up on peux lancer la commande suivant:
   * show databases ;
   * use db ;
   * show tables ;
-  * select * from TRANSACTDTO ;
+  * select * from TRANSACTDTO ; 
 
  
