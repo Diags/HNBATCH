@@ -6,13 +6,13 @@ Dans cette architecture, nous utilisons Spring Batch pour partitionner les donn�
 Ces lots sont ensuite envoyés à Spring Integration, qui les achemine vers Apache Kafka pour un traitement.
  Cette approche permet de gérer de grandes quantités de données de manière efficace et scalable.
 # Prerequis
-Spring Batch
-Spring Integration
-Apache Kafka
-Docker-Compose
-Mysql Database
-Liquibase
-Lombock
+ * Spring Batch
+ * Spring Integration
+ * Apache Kafka
+ * Docker-Compose
+ * Mysql Database
+ * Liquibase
+ * Lombock
 Java 17
 # Programme
 ## Master
