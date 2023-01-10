@@ -1,6 +1,6 @@
 # HNBATCH
-ceci est un tuto sur un retour d'expériences sur des traitements en lots différées. En utilisant queleques stack technique.
-
+ce-ci est un récaputilatif sur un retour d'expériences sur des traitements de lots différés. En utilisant queleques stack techniques.
+L'objectif est de comprendre comment utiliser les stacks techniques pour résoudre un probleme de performatence et de gestion des erreurs dans le traitement de lot en masses.
 # Presentation
 Dans cette architecture, nous utilisons Spring Batch pour partitionner les données en plusieurs lots pour un traitement plus efficace. 
 Ces lots sont ensuite envoyés à Spring Integration, qui les achemine vers Apache Kafka pour un traitement.
