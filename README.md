@@ -5,9 +5,8 @@ L'objectif est de comprendre comment utiliser les stacks techniques pour résoud
 # Image 
 ![image](https://github.com/Diags/HNBATCH/blob/39d36c675693f8927a7a67dfd7f1c11369c2d0d2/src/main/resources/Capture.PNG)
 
-* 
  Dans cette architecture, nous utilisons Spring Batch pour partitionner les données en plusieurs lots pour un traitement plus efficace. 
-Ces lots sont ensuite envoyés à Spring Integration, qui les achemine vers Apache Kafka pour un traitement.
+Ces lots sont ensuite envoyés à Spring Integration, qui les achemine vers Apache Kafka pour un traitement en parrelle vers des wokers.
  Cette approche permet de gérer de grandes quantités de données de manière efficace et scalable.
 # Prerequis
  * Spring Batch
